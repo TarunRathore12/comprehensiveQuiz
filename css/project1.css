@@ -1,0 +1,20 @@
+
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/156/545/original/abstract-corona-virus-covid-19-spreading-of-colorful-design-minimal-artwork-background-illustration-eps10-vector.jpg');
+}
+.qoute{
+    text-align: right;
+    margin: auto;
+    max-width: fit-content;
+    border: 3px solid #73AD21;
+    padding: 5px;
+    font-family: Courier;
+    background-color: floralwhite;
+    border-radius: 15px 50px;
+}
+.intro{
+    background-color: seashell;
+    border: 2px dashed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}

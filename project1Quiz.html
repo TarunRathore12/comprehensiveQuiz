@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">                
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>CAB QUIZ</title>
+    </head>
+    <body>
+        <div class="container" data-mdb-perfect-scrollbar='true'>
+            <h1 class="text-center text-primary display-1">QUIZ</h1>
+            <p class="text-left rounded small p-1" style="float: right;border: 3px solid red;" >TIME LEFT >> <span id="minutes">9</span> MINUTES <span id="sec">60</span> SECONDS</p>
+            <p>
+                <h5 class="display-5">Instructions :--</h5>
+                <ul>
+                    <li>All the questions carry equal weightage</li>
+                    <li>There would be no negetive marking for wrong answeres</li>
+                    <li>Attempting all the questions is compulsary</li>
+                    <li>Time limit for the quiz is 10 minutes</li>
+                    <li>After 10 minutes, you will be automatically directed to result</li>
+                </ul>
+            </p>
+            <form>
+            <div class="card bg-secondary text-white">
+                <div class="card-body">
+                    <h4 class="card-title">Q1> World Health Organisation declared Covid-19 as ___ .</h4>
+                    <p class="card-text">
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio11">
+                              <input type="radio" class="form-check-input" id="radio11" name="opt1" value="a" checked>Epidemic
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio12">
+                              <input type="radio" class="form-check-input" id="radio12"  name="opt1" value="b">Endemic
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio13">
+                              <input type="radio" class="form-check-input" id="radio13" name="opt1" value="c">Pandemic
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio14">
+                              <input type="radio" class="form-check-input" id="radio14"  name="opt1" value="d">None of these
+                            </label>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="card bg-secondary text-white">
+                <div class="card-body">
+                    <h4 class="card-title">Q2> What should not be followed as a part of covid appropriate behaviour?</h4>
+                    <p class="card-text">
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio21">
+                              <input type="radio" class="form-check-input" id="radio21" name="opt2" value="a" checked>Greet without physical contact
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio22">
+                              <input type="radio" class="form-check-input" id="radio22" name="opt2" value="b">Maintaining Hygiene
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio23">
+                              <input type="radio" class="form-check-input" id="radio23" name="opt2" value="c">Avoiding unnecessary travel
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio24">
+                              <input type="radio" class="form-check-input" id="radio24" name="opt2" value="d">Visiting crowded places
+                            </label>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="card bg-secondary text-white">
+                <div class="card-body">
+                    <h4 class="card-title">Q3> What is the national helpline number of health ministry for all covid related information?</h4>
+                    <p class="card-text">
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio31">
+                              <input type="radio" class="form-check-input" id="radio31" name="opt3" value="a" >1075
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio32">
+                              <input type="radio" class="form-check-input" id="radio32" name="opt3" value="b" checked>100
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio33">
+                              <input type="radio" class="form-check-input" id="radio33" name="opt3" value="c">1098
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio34">
+                              <input type="radio" class="form-check-input" id="radio34" name="opt3" value="d">108
+                            </label>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="card bg-secondary text-white">
+                <div class="card-body">
+                    <h4 class="card-title">Q4> When should covid appropriate behaviour be followed?</h4>
+                    <p class="card-text">
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio41">
+                              <input type="radio" class="form-check-input" id="radio41" name="opt4" value="a" checked>In home
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio42">
+                              <input type="radio" class="form-check-input" id="radio42" name="opt4" value="b">Outside home
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio43">
+                              <input type="radio" class="form-check-input" id="radio43" name="opt4" value="c">At all places, at all times
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio44">
+                              <input type="radio" class="form-check-input" id="radio44" name="opt4" value="d">In office
+                            </label>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="card bg-secondary text-white">
+                <div class="card-body">
+                    <h4 class="card-title">Q5> A boy named qwerty checks his oxygen saturation level using oxymeter, & found it to be 94%, what should he do now?</h4>
+                    <p class="card-text">
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio51">
+                              <input type="radio" class="form-check-input" id="radio51" name="opt5" value="a" checked>Go to medical & do self diagnosis
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio52">
+                              <input type="radio" class="form-check-input" id="radio52" name="opt5" value="b">Consult doctor & get the covid test done
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio53">
+                              <input type="radio" class="form-check-input" id="radio53" name="opt5" value="c">Take necessary rest
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio54">
+                              <input type="radio" class="form-check-input" id="radio54" name="opt5" value="d">No worries, qwerty can roam in the market
+                            </label>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="card bg-secondary text-white">
+                <div class="card-body">
+                    <h4 class="card-title">Q6> Select the wrong statement.</h4>
+                    <p class="card-text">
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio61">
+                              <input type="radio" class="form-check-input" id="radio61" name="opt6" value="a" checked>Greet without physical contact
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio62">
+                              <input type="radio" class="form-check-input" id="radio62" name="opt6" value="b">Maintain physical distance
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio63">
+                              <input type="radio" class="form-check-input" id="radio63" name="opt6" value="c">Encourage crowd gathering
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio64">
+                              <input type="radio" class="form-check-input" id="radio64" name="opt6" value="d">None of the above
+                            </label>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="card bg-secondary text-white">
+                <div class="card-body">
+                    <h4 class="card-title">Q7> Is regular sanitization necessary of each person while entering the office?</h4>
+                    <p class="card-text">
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio71">
+                              <input type="radio" class="form-check-input" id="radio71" name="opt7" value="a" checked>Not required
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio72">
+                              <input type="radio" class="form-check-input" id="radio72" name="opt7" value="b">For some its required
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio73">
+                              <input type="radio" class="form-check-input" id="radio73" name="opt7" value="c">Can't say
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio74">
+                              <input type="radio" class="form-check-input" id="radio74" name="opt7" value="d">Yes
+                            </label>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="card bg-secondary text-white">
+                <div class="card-body">
+                    <h4 class="card-title">Q8> Qwerty says,'100% people need hospital for treatment of COVID-19'.Is he correct?</h4>
+                    <p class="card-text">
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio81">
+                              <input type="radio" class="form-check-input" id="radio81" name="opt8" value="a" >Absolutely wrong
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio82">
+                              <input type="radio" class="form-check-input" id="radio82" name="opt8" value="b" checked>Correct
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio83">
+                              <input type="radio" class="form-check-input" id="radio83" name="opt8" value="c">Partially correct
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio84">
+                              <input type="radio" class="form-check-input" id="radio84" name="opt8" value="d">Data not available
+                            </label>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="card bg-secondary text-white">
+                <div class="card-body">
+                    <h4 class="card-title">Q9> Select the wrong statement.</h4>
+                    <p class="card-text">
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio91">
+                              <input type="radio" class="form-check-input" id="radio91" name="opt9" value="a" checked>Regularly clean & disinfect frequently touched surface
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio92">
+                              <input type="radio" class="form-check-input" id="radio92" name="opt9" value="b">Do not discriminate against anyone
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio93">
+                              <input type="radio" class="form-check-input" id="radio93" name="opt9" value="c">Circulate social media post which carry unverified or negetive information
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio94">
+                              <input type="radio" class="form-check-input" id="radio94" name="opt9" value="d">Seek information on COVID-19 from credible sources
+                            </label>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="card bg-secondary text-white">
+                <div class="card-body">
+                    <h4 class="card-title">Q10> While you are at office, which is the most essential thing?</h4>
+                    <p class="card-text">
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio101">
+                              <input type="radio" class="form-check-input" id="radio101" name="opt10" value="a" checked>Mask
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio102">
+                              <input type="radio" class="form-check-input" id="radio102" name="opt10" value="b">Sanitizer & Mask
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio103">
+                              <input type="radio" class="form-check-input" id="radio103" name="opt10" value="c">Only mask
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio104">
+                              <input type="radio" class="form-check-input" id="radio104" name="opt10" value="d">Only sanitizer
+                            </label>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            </form>
+            <div class="d-grid col-6 mx-auto m-1" >
+                <button type="button" id="checkResult" class="btn btn-success btn-lg"  onclick="checkResult()" data-bs-toggle="modal" data-bs-target="#staticBackdrop">SUBMIT</button>
+            </div>
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                        <p class="display-5">You scored <span id="per"class="text-info font-weight-bold display-3">%</span></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-dark btn-lg" onclick="document.location='index.html'">Try Again</button>
+                      <button type="button" class="btn btn-outline-danger btn-lg" data-bs-dismiss="modal" onClick="checkAns()">Check Answeres</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <script src="js/project1Quiz.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>

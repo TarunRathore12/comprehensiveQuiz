@@ -4,7 +4,7 @@ let innerAns = document.getElementById('per');
 let minutes = document.getElementById('minutes');
 let sec = document.getElementById('sec');
 let rbutton = document.getElementById("checkResult");
-let scount=60,mcount=9;
+let scount=60,mcount=4;
 let stopTimer = setInterval(()=>{
     if(scount==0){
         mcount--;
